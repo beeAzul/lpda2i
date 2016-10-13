@@ -1,0 +1,68 @@
+/**
+ * Fichier CSS
+ * pour l'affichage des formulaire
+ * @author Christian Bonhomme
+ * @version 1.0
+ * @package EXO-MOOC
+ */
+
+/* Formulaire */
+form 
+{
+margin: 0 auto;
+width: 20em;
+text-align: center;
+}
+
+fieldset 
+{
+border: 1px solid #738dc0;
+border-radius: 15px;
+padding: 0.5em;
+background-color: #fff;
+}
+
+legend 
+{
+background-color: #d0d6e9;
+color: #405c90;
+font-weight: bold;
+border: 1px solid #738dc0;
+border-radius: 15px;
+height: 1.5em;
+line-height: 1.5em;
+margin-left: 0.7em;
+padding: 0 0.7em;
+}
+
+form p 
+{
+margin: 0.5em 0;
+}
+
+label 
+{
+display: inline-block;
+width: 5em;
+padding-right: 0.7em;
+text-align: right;
+font-weight: bold;
+}
+
+input
+{
+font-weight: bold;
+color: #405c90;
+}
+
+input[type="submit"]
+{
+background-color: #d0d6e9;
+color: #000;
+border-radius: 5px;
+}
+
+input[type="submit"]:hover
+{
+border-style: inset;
+}
